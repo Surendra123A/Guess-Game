@@ -33,7 +33,7 @@ def game():
 
         # **************************** Hint *************************
 
-        if hint == 5:
+        if hint %5 == 0:
             print('**********************************', '\n')
             print('__________ HINT _____________', '\n')
             print(f'the number is {abs(answer - guess)} digits away from {guess}', '\n')
